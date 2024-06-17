@@ -1,0 +1,127 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.521);
+    backdrop-filter: blur(3px);
+}   
+header ul li #a {
+    width: 0%;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header ul li #a:hover {
+    width: 100%;
+    color: white;
+    background: rgb(33, 33, 33);
+}
+
+.flare{
+    align-items: center;
+}
+
+.flare img{
+    width: 50px;
+    position: relative;
+    top: 2px;
+}
+
+header a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+header ul li a{
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+header ul li {
+    margin-right: 20px;
+}
+
+.active{
+    color: white;
+    background: rgb(33, 33, 33);    
+    width: 100%;
+    display: inline-block;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; /* Adjust this value based on the height of your header */
+}
+
+.order-list-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.order-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.order-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+    text-align: left;
+}
+
+.order-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-table tbody tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+.order-table tbody tr:hover td {
+    background-color: #f1f1f1;
+}
+
+.status-select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
